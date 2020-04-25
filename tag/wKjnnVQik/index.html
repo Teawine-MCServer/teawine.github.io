@@ -8,7 +8,7 @@
 <meta name="keywords" content="是小周呀zjj">
 <meta name="description" content="专注于IT高效软件、ACG动漫资讯与资源推广">
 <meta name="theme-color" content="#000">
-<title> 日漫推荐第一弹：神番！-强推-致郁-感情-《Charlotte》 | 是小周呀zjj</title>
+<title>是小周呀zjj</title>
 <link rel="shortcut icon" href="/favicon.ico?v=1587806310641">
 <link rel="stylesheet" href="/styles/main.css">
 <link rel="stylesheet" href="/media/css/pisces.css">
@@ -29,8 +29,6 @@
 
 
 
-  <meta name="description" content=" 日漫推荐第一弹：神番！-强推-致郁-感情-《Charlotte》" />
-  <meta name="keywords" content="动漫" />
 </head>
 
 <body>
@@ -143,25 +141,10 @@
   <div class="main-continer">
     
     <div
-      class="section-layout pisces ">
+      class="section-layout  pisces">
       <div class="section-layout-wrapper">
-        
-
-<div class="sidebar">
-  
-    <div class="sidebar-box box-shadow-wrapper bg-color right-motion" id="sidebar">
-      
-        <div class="post-list-sidebar">
-          <div class="sidebar-title">
-            <span id="tocSideBar" class="sidebar-title-item sidebar-title-active">文章目录</span>
-            <span id="metaSideBar" class="sidebar-title-item">站点概览</span>
-          </div>
-        </div>
-      
-      <div class="sidebar-body pisces" id="sidebar_body">
-        
-          
-            
+        <div id="sidebarMeta" class="sidebar">
+    
 <div class="sidebar-wrapper box-shadow-wrapper bg-color">
   <div class="sidebar-item">
     <img class="site-author-image right-motion" src="/images/avatar.png"/>
@@ -213,223 +196,58 @@
 
 
 </div>
-          
-        
-      </div>
-    </div>
-  
 </div>
 <script>
-  const SIDEBAR_TITLE_ACTIVE = 'sidebar-title-active';
-  const SIDEBAR_BODY_ACTIVE = 'sidebar-body-active';
-  const SLIDE_UP_IN = 'slide-up-in';
-
-  let sidebar = document.querySelector('#sidebar'),
-  tocSideBar = document.querySelector('#tocSideBar'),
-  metaSideBar = document.querySelector('#metaSideBar'),
-  postToc = document.querySelector('#post_toc'),
-  postSiteMeta = document.querySelector('#post_side_meta'),
-  sidebarTitle = document.querySelector('.sidebar-title'),
-  sidebarBody = document.querySelector('#sidebar_body');
-
-  tocSideBar && tocSideBar.addEventListener('click', (e) => {
-    toggleSidebar(e);
-  });
-
-  metaSideBar && metaSideBar.addEventListener('click', (e) => {
-    toggleSidebar(e);
-  });
-
-  function toggleSidebar(e) {
-    let currentTitle = document.querySelector("."+SIDEBAR_TITLE_ACTIVE);
-    if (currentTitle == e.srcElement) {
-      return ;
-    }
-    let current, showElement, hideElement;
-    if (e.srcElement == metaSideBar) {
-      showElement = postSiteMeta;
-      hideElement = postToc;
-    } else if (e.srcElement == tocSideBar){
-      showElement = postToc;
-      hideElement = postSiteMeta;
-    }
-    currentTitle.classList.remove(SIDEBAR_TITLE_ACTIVE);
-    e.srcElement.classList.add(SIDEBAR_TITLE_ACTIVE);
-
-    window.Velocity(hideElement, 'stop');
-    window.Velocity(hideElement, 'transition.slideUpOut', {
-      display: 'none',
-      duration: 200,
-      complete: function () {
-        window.Velocity(showElement, 'transition.slideDownIn', {
-          duration: 200
-        });
+  let sidebarMeta = document.querySelector('#sidebarMeta');
+  let scheme = 'pisces';
+  let sidebarWrapper = document.querySelector('.sidebar-wrapper');
+  if (sidebarMeta && (scheme === 'pisces' || scheme === 'gemini')) {
+    document.addEventListener('scroll', function(e) {
+      if (document.scrollingElement.scrollTop > parseInt(sidebarMeta.style.marginTop) + 10) {
+        sidebarWrapper.classList.add('home-sidebar-fixed')
+      } else {
+        sidebarWrapper.classList.remove('home-sidebar-fixed')
       }
-    })
-    hideElement.classList.remove(SIDEBAR_BODY_ACTIVE);
-    showElement.classList.add(SIDEBAR_BODY_ACTIVE);
+    });
   }
-
-  postToc && postToc.addEventListener('transitionend', function() {
-    this.classList.remove(SLIDE_UP_IN);
-  });
-
-  if (sidebarBody) {
-    if (sidebarBody.classList.contains('pisces') || sidebarBody.classList.contains('gemini')) {
-      let hasFix = false;
-      let scrollEl = document.querySelector('.main-continer');
-      let limitTop = document.querySelector('#nav_ul').children.length * 42 + 162;
-      window.addEventListener('scroll', function(e) {
-        if (document.scrollingElement.scrollTop >= limitTop) {
-          if (!hasFix) {
-            sidebar.classList.add('sidebar-fixed');
-            hasFix = true;
-          }
-        } else {
-          if (hasFix) {
-            sidebar.classList.remove('sidebar-fixed');
-            hasFix = false;
-          }
-        }
-      });
-    }
-  }
-  
-</script>
-        <div class="section-box box-shadow-wrapper">
-          <div class="section bg-color post post-page">
-            <header class="post-header">
-  <h1 class="post-title">
-    <a class="post-title-link" href="https://zjj0827.tk/post/ri-man-tui-jian-di-yi-dan-shen-fan-qiang-tui-zhi-yu-gan-qing-lesslesscharlottegreatergreater/">
-       日漫推荐第一弹：神番！-强推-致郁-感情-《Charlotte》
-    </a>
-  </h1>
-  <div class="post-meta">
-    
-    <span class="meta-item">
-      <i class="fa fa-thumb-tack"></i>
-      <span>置顶</span>
-      <span class="post-meta-divider">|</span>
-    </span>
-    
-    <span class="meta-item pc-show">
-      <i class="fa fa-calendar-o"></i>
-      <span>发布于</span>
-      <span>2020-04-18</span>
-      <span class="post-meta-divider pc-show">|</span>
-    </span>
-    
-    <span class="meta-item">
-      <i class="fa fa-folder-o"></i>
-      <span class="pc-show">分类于</span>
+  </script>
+        <div class="section-box tag-line box-shadow-wrapper">
+          <section class="section tags-section posts-expand bg-color">
+            <div class="padding-wrapper">
+  <div class="tag-timeline-box">
+    <div class="tag-timeline-wrapper">
+      <div class="tag-timeline-title">
+        <h2>
+          刀剑神域系列
+          <small>标签</small>
+        </h2>
+      </div>
       
       
-      <a href="https://zjj0827.tk/tag/u3jg_UU6I/">
-        <span>动漫</span>
+      
+      <a href="https://zjj0827.tk/post/ri-man-tui-jian-di-er-dan-or-re-xie-zhan-zheng-you-xi-lesslessdao-jian-shen-yu-saogreatergreater/">
+        <div class="motion-warpper">
+          <div class="tag-post-node">
+            <h1>
+              04-25
+              <small>日漫推荐第二弹 | 热血-战争-游戏《刀剑神域-SAO》</small>
+            </h1>
+          </div>
+        </div>
       </a>
       
       
-    </span>
-    <span class="post-meta-divider">|</span>
-    
-    <span class="meta-item">
-      <i class="fa fa-clock-o"></i>
-      <span>3分钟</span>
-    </span>
-    <span class="meta-item">
-      <span class="post-meta-divider">|</span>
-      <i class="fa fa-file-word-o"></i>
-      <span>680<span class="pc-show">字数</span></span>
-    </span>
-    
-  </div>
-</header>
-            <div class="post-body next-md-body" id="post_body">
-              <p>今天我们要推荐的一部番名字叫《Charlotte》</p>
-<p>他虽然是一部已经5年了，但在现在被称之为神番！</p>
-<p><a href="https://imgchr.com/i/JmylO1"><img src="https://s1.ax1x.com/2020/04/18/JmylO1.md.png" alt="JmylO1.md.png" loading="lazy"></a><br>
-图片版权：©小周呀zjj</p>
-<p>话不多说，我们来一起看看：以下均摘自百度百科</p>
-<blockquote>
-<p>《Charlotte》是一部由游戏制作公司Key与ANIPLEX联合企划、P.A.WORKS制作的日本原创动画，也是麻枝准自2010年的《Angel Beats!》（之后会推荐哒）以来时隔五年再次参与剧本创作的动画。动画于2015年7月4日开始播出，全13话。</p>
-</blockquote>
-<p><a href="https://imgchr.com/i/Jmy8w6"><img src="https://s1.ax1x.com/2020/04/18/Jmy8w6.md.png" alt="Jmy8w6.md.png" loading="lazy"></a><br>
-图源自网络，侵删<br>
-标题《Charlotte》是来自于作品里面出现的“Charlotte彗星”。正是因为这颗彗星的粒子对于人体产生了影响，因此才导致青春期会出现超能力的现象。也就是说，Charlotte彗星是能力者诞生的原因。</p>
-<p><a href="https://imgchr.com/i/Jmy3ex"><img src="https://s1.ax1x.com/2020/04/18/Jmy3ex.md.png" alt="Jmy3ex.md.png" loading="lazy"></a><br>
-图源自网络，侵删<br>
-男主角乙坂有宇拥有着只在极少一部分的青春期少年少女身上诱发产生的罕见特殊能力，依靠这份能力度过着一帆风顺的学园生活的他，经由与神秘少女友利奈绪的邂逅，揭开了特殊能力者们身上的宿命。</p>
-<p><a href="https://imgchr.com/i/JmyGTK"><img src="https://s1.ax1x.com/2020/04/18/JmyGTK.md.png" alt="JmyGTK.md.png" loading="lazy"></a><br>
-图源自网络，侵删<br>
-这部番主打超能力，真的超好看！强烈推荐！真的是值得一看的动漫！也是我入坑的第一部~</p>
-<p>每个角色都是有血有肉的存在，有泪点也有笑点，泪点超感人。</p>
-<p>超能力题材的动漫一直是我个人比较喜欢的，《Charlotte》包含了多个方面，比如友情、亲情、爱情以及拯救世界</p>
-<p>总的来说，一千个读者有一千个哈姆雷特，只有你自己看了才知道。</p>
-<p>虽然一直以来这摄像机拍的都是不想拍的东西，不过今后我会继续把大家拍下来的。把无数幸福的日常生活拍下来的，所以我们要留下很多幸福的回忆 ——友利奈绪</p>
-<p>只要身为挚友的你一直守望他就行了，将来有一天“那家伙是我的死党哦”你一定有机会向别人炫耀的。一定会的，没问题的！—— 友利奈绪</p>
-<p>但是，说实话是个很普通的味道，太过平凡，是在便利店就能吃到的程度，但是，父母的爱，这个隐藏的佐料让它成为了绝顶美味的料理。—— 黑羽美砂</p>
-<p>动漫直连（点进去可以直接跳转到观看页面哦）：<a href="https://www.bilibili.com/bangumi/play/ep63840">B站传送门</a></p>
-<p>吐血出品，禁止转载。好看的话记得点赞哦👍 之后我会每周推荐2部左右哦</p>
-
-            </div>
-            <div class="post-footer">
-  <ul class="post-copyright">
-    <li class="post-copyright-author">
-      <strong>本文作者：</strong>
-      是小周呀zjj
-    </li>
-    <li class="post-copyright-link">
-      <strong>本文链接：</strong>
-      <a href="https://zjj0827.tk/post/ri-man-tui-jian-di-yi-dan-shen-fan-qiang-tui-zhi-yu-gan-qing-lesslesscharlottegreatergreater/" title=" 日漫推荐第一弹：神番！-强推-致郁-感情-《Charlotte》">https://zjj0827.tk/post/ri-man-tui-jian-di-yi-dan-shen-fan-qiang-tui-zhi-yu-gan-qing-lesslesscharlottegreatergreater/</a>
-    </li>
-    <li class="post-copyright-license">
-      <strong>版权声明： </strong>
-      本博客所有文章除特别声明外，均采用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i> BY-NC-SA</a> 许可协议。转载请注明出处！
-    </li>
-  </ul>
-  <div class="tags">
-    
-      <a href="https://zjj0827.tk/tag/u3jg_UU6I/"># 动漫</a>
-    
-  </div>
-  <div class="nav">
-    <div class="nav-prev">
       
-        <i class="fa fa-chevron-left"></i>
-        <a class="nav-pc-next" title="日漫推荐第二弹 | 热血-战争-游戏《刀剑神域-SAO》" href="https://zjj0827.tk/post/ri-man-tui-jian-di-er-dan-or-re-xie-zhan-zheng-you-xi-lesslessdao-jian-shen-yu-saogreatergreater/">日漫推荐第二弹 | 热血-战争-游戏《刀剑神域-SAO》</a class="nav-pc-next">
-        <a class="nav-mobile-prev" title="日漫推荐第二弹 | 热血-战争-游戏《刀剑神域-SAO》" href="https://zjj0827.tk/post/ri-man-tui-jian-di-er-dan-or-re-xie-zhan-zheng-you-xi-lesslessdao-jian-shen-yu-saogreatergreater/">上一篇</a>
       
-    </div>
-    <div class="nav-next">
+      
+      
+      
+      
       
     </div>
   </div>
 </div>
-            
-  
-    
-      <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-
-<script>
-  var gitalk = new Gitalk({
-    clientID: '6185709d503912eec0c5',
-    clientSecret: '9ec60c434adcb824be27420e2490eaa4690b03af',
-    repo: 'zjj.github.io',
-    owner: 'zhoujunjie0827',
-    admin: ['zhoujunjie0827'],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-  gitalk.render('gitalk-container')
-</script>
-    
-    
-  
-
-          </div>
+          </section>
         </div>
       </div>
     </div>
@@ -599,36 +417,6 @@
   // 代码高亮
   hljs.initHighlightingOnLoad();
 
-</script>
-    <div class="light-box" id="light_box"></div>
-<script>
-  let imgs = document.querySelectorAll('.post-body img');
-  let lightBox = document.querySelector('#light_box');
-  lightBox.addEventListener('mousedown', (e) => {
-    e.preventDefault()
-  })
-  lightBox.addEventListener('mousewheel', (e) => {
-    e.preventDefault()
-  })
-  let width = window.innerWidth * 0.8;
-  lightBox.onclick = () => {
-    let img = lightBox.querySelector('img');
-    lightBox.style = '';
-    img && img.remove();
-  }
-  imgs.forEach(item => {
-    item.onclick = function (e) {
-      let lightImg = document.createElement('img');
-      lightImg.src = this.src;
-      lightBox.style = `height: 100%; opacity: 1; background-color: rgba(0, 0, 0, 0.5);cursor: zoom-out;`;
-      lightImg.style = `width: ${width}px; border: 1px solid #fff; border-radius: 2px;`;
-      lightImg.onclick = function () {
-        lightBox.style = '';
-        this.remove();
-      }
-      lightBox.append(lightImg);
-    }
-  })
 </script>
   </div>
 </body>
@@ -868,4 +656,5 @@
 <script src="/media/js/mouse/love.js"></script>
 
 <!-- <script src="/media/js/mouse/peace.js"></script> -->
+
 </html>
