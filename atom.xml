@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zjj0827.tk</id>
     <title>是小周呀zjj</title>
-    <updated>2020-04-30T12:57:24.503Z</updated>
+    <updated>2020-05-01T05:57:43.014Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zjj0827.tk"/>
     <link rel="self" href="https://zjj0827.tk/atom.xml"/>
@@ -10,6 +10,65 @@
     <logo>https://zjj0827.tk/images/avatar.png</logo>
     <icon>https://zjj0827.tk/favicon.ico</icon>
     <rights>All rights reserved 2020, 是小周呀zjj</rights>
+    <entry>
+        <title type="html"><![CDATA[网站公告]]></title>
+        <id>https://zjj0827.tk/post/wang-zhan-gong-gao/</id>
+        <link href="https://zjj0827.tk/post/wang-zhan-gong-gao/">
+        </link>
+        <updated>2020-05-01T05:55:35.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="网站简介">网站简介</h2>
+<h3 id="网站主站">网站主站</h3>
+<p>是小周呀zjj-是由周同学(化名)搭建的一个基于GitHub Pages的个人博客网站，由于一些的限制，目前无法被百度爬虫所抓取，这是一点很遗憾的。</p>
+<blockquote>
+<p>网站:https://zjj0827.tk/</p>
+</blockquote>
+<p>我相信大家从我的文章中看到我其实更多的是对ACG资源的推荐与索引，至于电脑软件等方面需要一些时间去撰写。</p>
+<h3 id="动漫存储云">动漫存储云</h3>
+<p>网站的菜单栏中，我们可以看到“动漫存储云[未完成]”字样，大家经过邮箱验证后即可进入动漫存储云，由于是基于”OneIndex-Master“所以还未完成，还有众多的BUG。动漫存储云全部资源均源自于网络爬虫爬取，侵删。</p>
+<p>在动漫存储云中，部分的内容经过了文件夹加密处理，等到动漫的推荐文章出来后，才会公布密码。</p>
+<h2 id="网站版本更新历史">网站版本更新历史</h2>
+<h3 id="网站20">网站2.0</h3>
+<ol>
+<li>
+<p>修改主题，并使用了图床与文章图片下载</p>
+</li>
+<li>
+<p>增加动漫存储云入口，但还未完成</p>
+</li>
+<li>
+<p>更改网页图标与作者图标</p>
+</li>
+<li>
+<p>使用GitTalk接口，增加评论系统</p>
+</li>
+</ol>
+<h3 id="网站10">网站1.0</h3>
+<ol>
+<li>
+<p>首次使用GitHub Pages建立博客</p>
+</li>
+<li>
+<p>萌生出搭建动漫资源云的想法</p>
+</li>
+<li>
+<p>开始写第一篇文章“日漫推荐第一弹：神番！-强推-致郁-感情-《Charlotte》”</p>
+</li>
+</ol>
+<h2 id="网站说明">网站说明</h2>
+<h3 id="1特殊资源问题">1.特殊资源问题</h3>
+<p>这里有免费的资源，所以也肯定有特殊的资源(俗称:18jing)</p>
+<p>所以千万不要大力传播，不然作者可是很为难的😔</p>
+<h3 id="2网站卡顿问题">2.网站卡顿问题</h3>
+<p>网站第一次进入很卡是很正常的，因为作者也这么卡过</p>
+<p>多刷新重进几次就OK啦~</p>
+<h3 id="3搜索爬取问题">3.搜索爬取问题</h3>
+<p>这个的话，官方的搜索引擎看到我的话，记得联系我一下哈~</p>
+<p>baidu申请了，不过到目前为止还没被收取</p>
+<p>目前打算在各个平台搭建自己的文章专栏，欢迎观看!</p>
+<h3 id="4文章转载问题">4.文章转载问题</h3>
+<p>文章转载需联系作者TIM/QQ，并注明原地址！</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[日漫推荐第二弹 | 热血-战争-游戏《刀剑神域-SAO》]]></title>
         <id>https://zjj0827.tk/post/ri-man-tui-jian-di-er-dan-or-re-xie-zhan-zheng-you-xi-lesslessdao-jian-shen-yu-saogreatergreater/</id>
