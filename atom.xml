@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zjj0827.tk</id>
     <title>是小周呀zjj</title>
-    <updated>2020-05-04T12:30:52.713Z</updated>
+    <updated>2020-05-04T12:51:19.949Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zjj0827.tk"/>
     <link rel="self" href="https://zjj0827.tk/atom.xml"/>
@@ -10,6 +10,67 @@
     <logo>https://zjj0827.tk/images/avatar.png</logo>
     <icon>https://zjj0827.tk/favicon.ico</icon>
     <rights>All rights reserved 2020, 是小周呀zjj</rights>
+    <entry>
+        <title type="html"><![CDATA[有奖竞猜]]></title>
+        <id>https://zjj0827.tk/post/guess/</id>
+        <link href="https://zjj0827.tk/post/guess/">
+        </link>
+        <updated>2020-05-04T12:49:09.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>在这里可以得到我的动漫存储云的内测资格哦，大家可以把答案打在评论区，并附上序号与邮箱，格式如“ABCD -1 ···@···.com”，重号两个都不算哦，之后我会抽奖选出答案对的其中五名，发放网址与进入密码，等待邮箱通知！</p>
+</blockquote>
+<ol>
+<li>
+<p>我的网址（省略https://头的）</p>
+<details>
+<summary>点击显示提示</summary>
+<pre>
+康康地址栏
+</pre>
+</details>
+</li>
+<li>
+<p>我的第一篇文章是什么（写标题）</p>
+<details>
+<summary>点击显示提示</summary>
+<pre>
+日漫推荐第一弹：。。。
+</pre>
+</details>
+</li>
+<li>
+<p>我在哪些平台投过文章（多选）</p>
+<details>
+   <summary>点击显示提示</summary>
+   <pre>
+   A.这里
+   B.简书
+   C.B站
+   D.头条
+   E.百家
+   </pre>
+   </details>
+</li>
+<li>
+<p>对作者的评价（20个字左右吧）</p>
+</li>
+<li>
+<p>[选-做错不会影响]我接下来会写关于什么的文章（多选）</p>
+<details>
+   <summary>点击显示提示</summary>
+   <pre>
+   A.Minecraft
+   B.高效率电脑软件安利
+   C.学习生活
+   D.软件教程
+   </pre>
+   </details>
+</li>
+</ol>
+<hr>
+<p>感谢大家的作答，动漫存储云的体验资格可能就是你的！</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[网站公告]]></title>
         <id>https://zjj0827.tk/post/wang-zhan-gong-gao/</id>
