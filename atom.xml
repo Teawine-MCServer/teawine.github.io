@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zjj0827.tk</id>
     <title>是小周呀zjj</title>
-    <updated>2020-05-06T11:05:52.490Z</updated>
+    <updated>2020-05-23T05:40:05.219Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zjj0827.tk"/>
     <link rel="self" href="https://zjj0827.tk/atom.xml"/>
@@ -10,6 +10,22 @@
     <logo>https://zjj0827.tk/images/avatar.png</logo>
     <icon>https://zjj0827.tk/favicon.ico</icon>
     <rights>All rights reserved 2020, 是小周呀zjj</rights>
+    <entry>
+        <title type="html"><![CDATA[自制游戏 | Aelx跑酷]]></title>
+        <id>https://zjj0827.tk/post/zi-zhi-you-xi-or-aelx-pao-ku/</id>
+        <link href="https://zjj0827.tk/post/zi-zhi-you-xi-or-aelx-pao-ku/">
+        </link>
+        <updated>2020-05-23T05:36:21.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://i.loli.net/2020/05/23/rdUecfbgICEsYTV.png" alt="Aelx run.png" loading="lazy"></figure>
+<h2 id="游戏介绍">游戏介绍</h2>
+<p>这只是一个我自己做的基于Scratch的Aelx跑酷，这画风与Minecraft有的一拼，这里贴心的笔者为大家整合成了EXE文件，Mac的话很遗憾就没办法啦。</p>
+<h2 id="玩法介绍">玩法介绍</h2>
+<p>可以按键盘上的“↑”“↓”“←”“→”键来控制Aelx，按住空格键可以跳的更高</p>
+<h2 id="游戏下载">游戏下载</h2>
+<p><img src="https://i.loli.net/2020/05/23/9LRBqvUgCV3ZaQp.png" alt="跑酷.png" loading="lazy"><br>
+<a href="https://github.com/zhoujunjie0827/zjj.github.io/raw/master/%E8%B7%91%E9%85%B7v1.0.exe">极速下载</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[有奖竞猜]]></title>
         <id>https://zjj0827.tk/post/guess/</id>
