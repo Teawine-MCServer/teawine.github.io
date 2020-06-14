@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://teawine.github.io</id>
-    <title>是小周呀zjj</title>
-    <updated>2020-06-14T13:07:39.442Z</updated>
+    <title>Teawine-MCServer[1.7.10-1.15.X]公益服务器|休闲养老|超多活动|MCMMO|公会|轻微RPG</title>
+    <updated>2020-06-14T13:14:57.564Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://teawine.github.io"/>
     <link rel="self" href="https://teawine.github.io/atom.xml"/>
-    <subtitle>专注于IT高效软件、ACG动漫资讯与资源推广</subtitle>
+    <subtitle>[生存] [多线]TeaWine——公益服务器|休闲养老|超多活动|MCMMO|公会|轻微RPG[1.7.10-1.15.X]
+mcbbs:https://www.mcbbs.net/thread-1051282-1-1.html
+</subtitle>
     <logo>https://teawine.github.io/images/avatar.png</logo>
     <icon>https://teawine.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, 是小周呀zjj</rights>
+    <rights>All rights reserved 2020, Teawine-MCServer[1.7.10-1.15.X]公益服务器|休闲养老|超多活动|MCMMO|公会|轻微RPG</rights>
 </feed>

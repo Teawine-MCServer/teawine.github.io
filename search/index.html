@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 
 <head>
-	<meta charset="UTF-8" />
+    <meta charset="UTF-8" />
 <title>Teawine-MCServer[1.7.10-1.15.X]公益服务器|休闲养老|超多活动|MCMMO|公会|轻微RPG</title>
 <meta name="description" content="[生存] [多线]TeaWine——公益服务器|休闲养老|超多活动|MCMMO|公会|轻微RPG[1.7.10-1.15.X]
 mcbbs:https://www.mcbbs.net/thread-1051282-1-1.html
@@ -19,11 +19,15 @@ mcbbs:https://www.mcbbs.net/thread-1051282-1-1.html
 <script>
     hljs.initHighlightingOnLoad();
 </script>
+    <script src="/media/search/fuse.js"></script>
+    <script src="/media/search/ejs.min.js"></script>
+    <script src="/media/search/gridea-search.js"></script>
+    <script src="/media/search/result.ejs" type="text/ejs"></script>
 </head>
 
 <body>
-	<div class="layout theme-dark">
-		<div class="layout-header">
+    <div class="layout theme-dark">
+        <div class="layout-header">
 
 	<div class="layout-header-main">
 		<div class="container">
@@ -95,7 +99,7 @@ mcbbs:https://www.mcbbs.net/thread-1051282-1-1.html
 	</div>
 
 </div>
-		<div class="layout-collapse d-md-none">
+        <div class="layout-collapse d-md-none">
 	<div class="layout-collapse-main">
 		<ul class="layout-collapse-list">
 			
@@ -108,39 +112,39 @@ mcbbs:https://www.mcbbs.net/thread-1051282-1-1.html
 	</div>
 </div>
 
-		<div class="layout-content">
-			<div class="layout-content-main">
-				<div class="container">
-					<div class="row justify-content-lg-center">
-						<div class="col-12 col-lg-9">
-							<div class="layout-archive">
-								
-								
-							</div>
+        <div class="layout-content">
+            <div class="layout-content-main">
+                <div class="container">
+                    <div class="row justify-content-lg-center">
+                        <div class="col-12 col-lg-9">
+                            <div id="gridea-search-result" class="layout-archive">
 
-							<div class="layout-paginator">
-								<div class="paginator row">
-									<div class="col-6">
-										
-										<a class="btn disabled btn-paginator width-100">上一页</a>
-										
-									</div>
-									<div class="col-6">
-										
-										<a class="btn disabled btn-paginator width-100">下一页</a>
-										
-									</div>
-								</div>
-							</div>
+                                <div class="card searching">
+                                    <div class="card-header">
+                                        <div class="header-content">
+                                            <div class="title">搜索中......</div>
+                                        </div>
+                                    </div>
+                                </div>
 
-						</div>
-					</div>
+                                <div class="card no-result" style="display:none">
+                                    <div class="card-header">
+                                        <div class="header-content">
+                                            <div class="title">未搜索到相关文章</div>
+                                        </div>
+                                    </div>
+                                </div>
 
-				</div>
-			</div>
-		</div>
+                            </div>
 
-			<div class="layout-footer">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        	<div class="layout-footer">
 
 		<div class="container">
 			<div class="row justify-content-lg-center">
@@ -195,7 +199,7 @@ mcbbs:https://www.mcbbs.net/thread-1051282-1-1.html
 
 	<script type="text/javascript" src='https://teawine.github.io/media/scripts/main.js'></script>
 	
-	</div>
+    </div>
 </body>
 
 </html>
