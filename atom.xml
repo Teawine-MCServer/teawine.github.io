@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://zjj0827.tk</id>
+    <id>https://teawine.github.io</id>
     <title>是小周呀zjj</title>
-    <updated>2020-05-23T05:40:53.840Z</updated>
+    <updated>2020-06-14T12:54:12.890Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://zjj0827.tk"/>
-    <link rel="self" href="https://zjj0827.tk/atom.xml"/>
+    <link rel="alternate" href="https://teawine.github.io"/>
+    <link rel="self" href="https://teawine.github.io/atom.xml"/>
     <subtitle>专注于IT高效软件、ACG动漫资讯与资源推广</subtitle>
-    <logo>https://zjj0827.tk/images/avatar.png</logo>
-    <icon>https://zjj0827.tk/favicon.ico</icon>
+    <logo>https://teawine.github.io/images/avatar.png</logo>
+    <icon>https://teawine.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 是小周呀zjj</rights>
     <entry>
         <title type="html"><![CDATA[自制游戏 | Aelx跑酷]]></title>
-        <id>https://zjj0827.tk/post/zi-zhi-you-xi-or-aelx-pao-ku/</id>
-        <link href="https://zjj0827.tk/post/zi-zhi-you-xi-or-aelx-pao-ku/">
+        <id>https://teawine.github.io/post/zi-zhi-you-xi-or-aelx-pao-ku/</id>
+        <link href="https://teawine.github.io/post/zi-zhi-you-xi-or-aelx-pao-ku/">
         </link>
         <updated>2020-05-23T05:36:21.000Z</updated>
         <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://i.loli.net/2020/05/23/rdUecfbgICEsYTV.png" alt="Aelx run.png" loading="lazy"></figure>
@@ -28,8 +28,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[有奖竞猜]]></title>
-        <id>https://zjj0827.tk/post/guess/</id>
-        <link href="https://zjj0827.tk/post/guess/">
+        <id>https://teawine.github.io/post/guess/</id>
+        <link href="https://teawine.github.io/post/guess/">
         </link>
         <updated>2020-05-04T12:49:09.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -89,8 +89,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[网站公告]]></title>
-        <id>https://zjj0827.tk/post/wang-zhan-gong-gao/</id>
-        <link href="https://zjj0827.tk/post/wang-zhan-gong-gao/">
+        <id>https://teawine.github.io/post/wang-zhan-gong-gao/</id>
+        <link href="https://teawine.github.io/post/wang-zhan-gong-gao/">
         </link>
         <updated>2020-05-01T05:55:35.000Z</updated>
         <content type="html"><![CDATA[<h2 id="网站简介">网站简介</h2>
@@ -148,8 +148,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[日漫推荐第二弹 | 热血-战争-游戏《刀剑神域-SAO》]]></title>
-        <id>https://zjj0827.tk/post/ri-man-tui-jian-di-er-dan-or-re-xie-zhan-zheng-you-xi-lesslessdao-jian-shen-yu-saogreatergreater/</id>
-        <link href="https://zjj0827.tk/post/ri-man-tui-jian-di-er-dan-or-re-xie-zhan-zheng-you-xi-lesslessdao-jian-shen-yu-saogreatergreater/">
+        <id>https://teawine.github.io/post/ri-man-tui-jian-di-er-dan-or-re-xie-zhan-zheng-you-xi-lesslessdao-jian-shen-yu-saogreatergreater/</id>
+        <link href="https://teawine.github.io/post/ri-man-tui-jian-di-er-dan-or-re-xie-zhan-zheng-you-xi-lesslessdao-jian-shen-yu-saogreatergreater/">
         </link>
         <updated>2020-04-25T09:15:35.000Z</updated>
         <content type="html"><![CDATA[<p>看完觉得好看的话，记得点赞哦👍，有余力的可以赞赏一下作者~<br>
@@ -230,8 +230,8 @@ https://www.bilibili.com/bangumi/media/md24755609复制到浏览器打开哦
     </entry>
     <entry>
         <title type="html"><![CDATA[ 日漫推荐第一弹 | 神番！-强推-致郁-感情-《Charlotte》]]></title>
-        <id>https://zjj0827.tk/post/ri-man-tui-jian-di-yi-dan-shen-fan-qiang-tui-zhi-yu-gan-qing-lesslesscharlottegreatergreater/</id>
-        <link href="https://zjj0827.tk/post/ri-man-tui-jian-di-yi-dan-shen-fan-qiang-tui-zhi-yu-gan-qing-lesslesscharlottegreatergreater/">
+        <id>https://teawine.github.io/post/ri-man-tui-jian-di-yi-dan-shen-fan-qiang-tui-zhi-yu-gan-qing-lesslesscharlottegreatergreater/</id>
+        <link href="https://teawine.github.io/post/ri-man-tui-jian-di-yi-dan-shen-fan-qiang-tui-zhi-yu-gan-qing-lesslesscharlottegreatergreater/">
         </link>
         <updated>2020-04-18T07:40:23.000Z</updated>
         <content type="html"><![CDATA[<p>今天我们要推荐的一部番名字叫《Charlotte》</p>
