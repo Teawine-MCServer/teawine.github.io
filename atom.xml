@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mcteawine.club</id>
     <title>Teawine-MCServer MC公益服务器|休闲养老|超多活动|MCMMO|公会|轻微RPG</title>
-    <updated>2020-07-01T12:14:49.878Z</updated>
+    <updated>2020-07-01T12:16:12.992Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mcteawine.club"/>
     <link rel="self" href="https://mcteawine.club/atom.xml"/>
@@ -12,18 +12,6 @@ mcbbs:https://www.mcbbs.net/thread-1051282-1-1.html
     <logo>https://mcteawine.club/images/avatar.png</logo>
     <icon>https://mcteawine.club/favicon.ico</icon>
     <rights>All rights reserved 2020, Teawine-MCServer MC公益服务器|休闲养老|超多活动|MCMMO|公会|轻微RPG</rights>
-    <entry>
-        <title type="html"><![CDATA[服务器不定期维护公告]]></title>
-        <id>https://mcteawine.club/fuwuqiweihu/</id>
-        <link href="https://mcteawine.club/fuwuqiweihu/">
-        </link>
-        <updated>2020-07-01T11:53:41.000Z</updated>
-        <content type="html"><![CDATA[<p>最近MC的重大发布了1.16.X 版本！😊</p>
-<p>甚至著名MC主播——籽岷将预言这个夏天MC必火！</p>
-<p>我们的服务器也在为这次的地狱更新做了不定期的维护~</p>
-<p>给我们的玩家们最好的体验！</p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[TeaWine(浓茶淡酒）等你来！！！]]></title>
         <id>https://mcteawine.club/00/</id>
